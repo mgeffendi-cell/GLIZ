@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SALIN KODE PROMO</title>
+ <!-- Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *{
+      box-sizing:border-box;
+      margin:0;
+      padding:0;
+      font-family:'Poppins', sans-serif;
+    }
+
+    body{
+      background:#fff;
+      min-height:100vh;
+      display:flex;
+      flex-direction:column;
+    }
+
+    /* Header */
+    .header{
+      display:flex;
+      align-items:center;
+      padding:14px 16px;
+    }
+
+    .back{
+      font-size:22px;
+      cursor:pointer;
+    }
+
+    /* Content */
+    .content{
+      padding:20px 16px;
+      flex:1;
+    }
+
+    .icon{
+      width:60px;
+      margin-bottom:16px;
+    }
+
+    h1{
+      font-size:18px;
+      font-weight:700;
+      margin-bottom:6px;
+    }
+
+    p{
+      font-size:14px;
+      color:#666;
+      margin-bottom:18px;
+    }
+
+    input{
+      width:100%;
+      border:none;
+      border-bottom:1px solid #ddd;
+      padding:10px 0;
+      font-size:18px;
+      outline:none;
+    }
+
+    input::placeholder{
+      color:#aaa;
+    }
+
+    /* Button */
+    .btn{
+      background:#0a8f08;
+      color:#fff;
+      text-align:center;
+      padding:16px;
+      font-weight:700;
+      font-size:16px;
+      cursor:pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="back" onclick="history.back()">←</div>
+  </div>
+
+  <div class="content">
+    <img src="https://cdn-icons-png.flaticon.com/512/891/891462.png" class="icon" alt="Promo">
+
+    <h1>Punya kode promo?</h1>
+    <p>Masukkan kode promonya di sini ya.</p>
+
+    <input type="text" placeholder="GAJIAN">
+  </div>
+
+  <div class="btn">
+    VALIDASI KODEMU
+  </div>
+
+</body>
+</html>
